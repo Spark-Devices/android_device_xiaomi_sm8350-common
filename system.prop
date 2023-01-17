@@ -1,3 +1,7 @@
+# ART
+dalvik.vm.dex2oat-filter=everything
+dalvik.vm.image-dex2oat-filter=everything
+
 # Camera
 vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.lineageos.aperture.dev
 
