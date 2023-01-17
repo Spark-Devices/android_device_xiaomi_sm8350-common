@@ -1,3 +1,7 @@
+# ART
+dalvik.vm.dex2oat-filter=everything
+dalvik.vm.image-dex2oat-filter=everything
+
 # Bluetooth
 persist.vendor.btstack.enable.lpa=true
 persist.vendor.bt.a2dp.aac_whitelist=false
