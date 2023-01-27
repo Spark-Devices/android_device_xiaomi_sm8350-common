@@ -137,7 +137,7 @@ function configure_memory_parameters() {
 	fi
 
 	echo $LimitSize > /dev/memcg/camera/provider/memory.soft_limit_in_bytes
-	
+
 	if [ $MemTotal -le 8388608 ]; then
 		echo 0 > /proc/sys/vm/watermark_boost_factor
 	fi
@@ -193,7 +193,7 @@ echo 325 > /proc/sys/kernel/walt_low_latency_task_threshold
 # cpuset parameters
 echo 0-2 > /dev/cpuset/background/cpus
 echo 0-3 > /dev/cpuset/system-background/cpus
-echo " " > /dev/cpuset/foreground/boost/cpus
+echo 0-6 > /dev/cpuset/foreground/boost/cpus
 echo 0-2,4-7 > /dev/cpuset/foreground/cpus
 echo 0-7 > /dev/cpuset/top-app/cpus
 
