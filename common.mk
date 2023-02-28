@@ -451,7 +451,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/power/config/lahaina/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # Preopt SystemUI
-PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += SystemUIGoogle
 
 # QTI
 PRODUCT_PACKAGES += \
