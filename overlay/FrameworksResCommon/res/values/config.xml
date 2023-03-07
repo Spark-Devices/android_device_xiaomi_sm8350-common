@@ -348,8 +348,4 @@
 
     <!-- the number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
-
-    <!-- Defines the sysfs attribute path used by the device
-       to enable/disable DC dimming. -->
-    <string name="config_deviceDcDimmingSysfsNode">/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure</string>
 </resources>
